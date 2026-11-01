@@ -18,6 +18,7 @@ import urllib.error
 import urllib.request
 import uuid
 import wave
+from datetime import datetime, timedelta, timezone
 from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
@@ -25,6 +26,7 @@ from pathlib import Path
 import sudhaar as sd
 
 HERE = Path(__file__).parent
+IST = timezone(timedelta(hours=5, minutes=30))
 PORT = int(os.environ.get("PORT", 8000))
 SESSIONS = {}  # ponytail: in-memory, one laptop; a store if this ever serves more than one person
 
@@ -191,7 +193,7 @@ def api_write(body):
                         for i in before if i["severity"] in ("error", "warning")],
         "remaining": counts(after),
         "checks": sd.prove_calls(path),
-        "at": time.strftime("%H:%M"),
+        "at": datetime.now(IST).strftime("%H:%M IST"),  # servers (Vercel) run on UTC
     }
 
 
