@@ -1,0 +1,148 @@
+{
+ "A_llm": [
+  {
+   "file": "tts_requests.py",
+   "models_and_speakers": [],
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "file": "stt.py",
+   "models_and_speakers": [
+    "saarika"
+   ],
+   "errors": [
+    "`saarika` is not a speech-to-text model the API accepts"
+   ],
+   "warnings": []
+  },
+  {
+   "file": "chat.js",
+   "models_and_speakers": [
+    "sarvam-1"
+   ],
+   "errors": [],
+   "warnings": [
+    "`sarvam-1` is not on Sarvam's chat API (fine if you run the open model locally)"
+   ]
+  },
+  {
+   "file": "tts_sdk.py",
+   "models_and_speakers": [
+    "meera",
+    "sarvam-text-to-speech"
+   ],
+   "errors": [],
+   "warnings": [
+    "`sarvam-text-to-speech` is not on Sarvam's chat API (fine if you run the open model locally)"
+   ]
+  },
+  {
+   "file": "voice_agent.py",
+   "models_and_speakers": [],
+   "errors": [],
+   "warnings": []
+  }
+ ],
+ "B_repos": [
+  {
+   "repo": "sarvamai/sarvam-ai-cookbook",
+   "errors": 8,
+   "examples": [
+    "scripts/sarvam_rules.py:13 sarvam-30b",
+    "scripts/sarvam_rules.py:16 sarvam-30b",
+    "scripts/sarvam_rules.py:17 sarvam-30b",
+    "tests/test_sarvam_rules.py:35 sarvam-30b",
+    "tests/test_sarvam_rules.py:47 sarvam-m",
+    "tests/test_sarvam_rules.py:63 sarvam-30b",
+    "tests/test_sarvam_rules.py:71 sarvam-30b",
+    "tests/test_validate_pr.py:65 sarvam-m"
+   ]
+  },
+  {
+   "repo": "sarvamai/sarvam-mcp",
+   "errors": 10,
+   "examples": [
+    "src/sarvam_mcp/code/_data.py:211 bulbul:v3 (default) | bulbul:v4-flash (low-latency, persona speakers)",
+    "src/sarvam_mcp/code/_data.py:217 str, required — one of TTS-supported codes",
+    "src/sarvam_mcp/code/_data.py:248 saaras:v4 (recommended, latest)",
+    "src/sarvam_mcp/code/_data.py:278 saaras:v4 (recommended, latest)",
+    "src/sarvam_mcp/code/_data.py:315 saaras:v3-realtime (default), saaras:v4",
+    "src/sarvam_mcp/code/_data.py:582 bulbul:v3 | bulbul:v4-flash",
+    "tests/code/test_recommend_and_validate.py:136 shubh",
+    "tests/code/test_recommend_and_validate.py:143 simran_en_customer",
+    "tests/code/test_recommend_and_validate.py:161 3.0",
+    "tests/code/test_recommend_and_validate.py:60 anushka"
+   ]
+  },
+  {
+   "repo": "sarvamai/skills",
+   "errors": 0,
+   "examples": []
+  },
+  {
+   "repo": "sarvamai/sarvam-ai-sdk",
+   "errors": 0,
+   "examples": []
+  },
+  {
+   "repo": "sarvamai/n8n-sarvam-node",
+   "errors": 0,
+   "examples": []
+  },
+  {
+   "repo": "sarvamai/llm_intent_entity",
+   "errors": 0,
+   "examples": []
+  },
+  {
+   "repo": "sarvamai/llm_wer",
+   "errors": 0,
+   "examples": []
+  }
+ ],
+ "B_docs": {
+  "pages_indexed": 204,
+  "pages_with_code": 161,
+  "failing_examples": [
+   "/api/api-guides-tutorials/speech-to-text/use-cases/edtech.md → ishita (speaker `ishita` is not valid on bulbul:v4-flash)",
+   "/api/api-guides-tutorials/text-to-speech/best-practices.md → ritu (speaker `ritu` is not valid on bulbul:v4-flash)",
+   "/api/api-guides-tutorials/text-to-speech/how-to/adjust-the-loudness.md → bulbul:v2 (`bulbul:v2`: deprecated, text-to-speech rejects it)",
+   "/api/api-guides-tutorials/text-to-speech/how-to/adjust-the-loudness.md → bulbul:v2 (`bulbul:v2`: deprecated, text-to-speech rejects it)",
+   "/api/api-guides-tutorials/text-to-speech/how-to/adjust-the-tone.md → bulbul:v2 (`bulbul:v2`: deprecated, text-to-speech rejects it)",
+   "/api/api-guides-tutorials/text-to-speech/how-to/adjust-the-tone.md → bulbul:v2 (`bulbul:v2`: deprecated, text-to-speech rejects it)",
+   "/api/api-guides-tutorials/text-to-speech/how-to/enable-text-preprocessing.md → bulbul:v2 (`bulbul:v2`: deprecated, text-to-speech rejects it)",
+   "/api/api-guides-tutorials/text-to-speech/how-to/enable-text-preprocessing.md → bulbul:v2 (`bulbul:v2`: deprecated, text-to-speech rejects it)",
+   "/api/api-guides-tutorials/text-to-speech/rest-api.md → priya (speaker `priya` is not valid on bulbul:v4-flash)",
+   "/api/api-guides-tutorials/text-to-speech/rest-api.md → roopa (speaker `roopa` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/loan-advisory-agent.md → aditya (speaker `aditya` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/loan-advisory-agent.md → anand (speaker `anand` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/loan-advisory-agent.md → priya (speaker `priya` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/loan-advisory-agent.md → aditya (speaker `aditya` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/loan-advisory-agent.md → aditya (speaker `aditya` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/loan-advisory-agent.md → aditya (speaker `aditya` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/tutor-agent.md → ishita_en_edtech (speaker `ishita_en_edtech` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/tutor-agent.md → ishita_en_edtech (speaker `ishita_en_edtech` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/tutor-agent.md → ishita_en_edtech (speaker `ishita_en_edtech` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/tutor-agent.md → ishita_en_edtech (speaker `ishita_en_edtech` is not valid on bulbul:v4-flash)",
+   "/api/cookbook/example-voice-agents/tutor-agent.md → ishita_en_edtech (speaker `ishita_en_edtech` is not valid on bulbul:v4-flash)",
+   "/api/getting-started/building-for-india.md → shubh (speaker `shubh` is not valid on bulbul:v4-flash)",
+   "/api/getting-started/building-for-india.md → shubh (speaker `shubh` is not valid on bulbul:v4-flash)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-30b.md → sarvam-30b (`sarvam-30b`: rejected by the live API (learned from changelog 2026-8-)",
+   "/api/getting-started/models/sarvam-m.md → sarvam-m (`sarvam-m`: rejected by the live API (learned from changelog 2026-6-5))",
+   "/api/getting-started/models/sarvam-m.md → sarvam-m (`sarvam-m`: rejected by the live API (learned from changelog 2026-6-5))",
+   "/api/getting-started/models/sarvam-m.md → sarvam-m (`sarvam-m`: rejected by the live API (learned from changelog 2026-6-5))",
+   "/api/getting-started/models/sarvam-m.md → sarvam-m (`sarvam-m`: rejected by the live API (learned from changelog 2026-6-5))",
+   "/api/getting-started/models/sarvam-m.md → sarvam-m (`sarvam-m`: rejected by the live API (learned from changelog 2026-6-5))",
+   "/api/getting-started/models/sarvam-m.md → sarvam-m (`sarvam-m`: rejected by the live API (learned from changelog 2026-6-5))"
+  ]
+ }
+}

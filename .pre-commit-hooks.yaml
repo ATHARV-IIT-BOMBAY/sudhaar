@@ -1,0 +1,7 @@
+- id: sudhaar
+  name: Sudhaar (Sarvam API calls)
+  description: Block commits that call Sarvam's API with models, voices or parameters the live API rejects.
+  entry: python3 sudhaar.py
+  language: python
+  types_or: [python, javascript, ts, jupyter, json]
+  pass_filenames: true

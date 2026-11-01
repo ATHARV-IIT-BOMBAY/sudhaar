@@ -1,0 +1,14 @@
+# Copy to .github/workflows/sudhaar.yml in any repo that calls Sarvam's API.
+# Every pull request fails if it introduces a Sarvam call the live API rejects.
+name: Sudhaar
+on: [pull_request, push]
+jobs:
+  sarvam-calls:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ATHARV-IIT-BOMBAY/sudhaar@main
+        with:
+          path: .
+          verify: true                            # optional: live 400 → 200 proof
+          sarvam-api-key: ${{ secrets.SARVAM_API_KEY }}

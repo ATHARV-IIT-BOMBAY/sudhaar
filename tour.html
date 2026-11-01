@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Why Sudhaar</title>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#ffffff;--fg:#1a1a1a;--muted:#6b6b6b;--faint:#9a9a9a;--line:#e8e8e5;--soft:#f6f6f4;--accent:#C2410C;--ok:#067647;--err:#b42318}
+@media (prefers-color-scheme:dark){:root:not([data-theme=light]){--bg:#1b1b1a;--fg:#ededeb;--muted:#a3a3a0;--faint:#77776f;--line:#2c2c2a;--soft:#242423;--accent:#FF8A50;--ok:#75e0a7;--err:#fda29b}}
+:root[data-theme=dark]{--bg:#1b1b1a;--fg:#ededeb;--muted:#a3a3a0;--faint:#77776f;--line:#2c2c2a;--soft:#242423;--accent:#FF8A50;--ok:#75e0a7;--err:#fda29b}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.65 Inter,system-ui,-apple-system,sans-serif}
+main{max-width:780px;margin:0 auto;padding:44px 20px 64px}
+.kicker{color:var(--muted);font-size:13px}
+h1{font-family:"Source Serif 4",Georgia,serif;font-weight:400;font-size:clamp(32px,5vw,46px);line-height:1.15;margin:8px 0 12px;letter-spacing:-.01em}
+h2{font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:24px;margin:40px 0 12px}
+p{margin:0 0 12px}.lead{font-size:18px;color:var(--muted);max-width:640px}
+.nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:22px 0 6px}
+.num{border:1px solid var(--line);border-radius:14px;padding:14px 16px}.num b{display:block;font-family:"Source Serif 4",Georgia,serif;font-weight:500;font-size:34px;color:var(--accent);line-height:1.1}.num span{font-size:14px;color:var(--muted)}
+.flow{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px}
+.step{border:1px solid var(--line);border-radius:14px;padding:14px}.step b{display:block;margin-bottom:4px}.step span{font-size:14px;color:var(--muted)}
+.tour{display:grid;gap:10px}
+.try{display:flex;gap:14px;align-items:center;border:1px solid var(--line);border-radius:14px;padding:14px 16px;background:var(--bg);text-align:left;font:inherit;color:inherit;cursor:pointer;width:100%}
+.try:hover{border-color:var(--faint)}.try:focus-visible{outline:2px solid var(--fg);outline-offset:2px}
+.try .n{flex:none;width:28px;height:28px;border-radius:50%;background:var(--fg);color:var(--bg);display:grid;place-items:center;font-size:13px;font-weight:600}
+.try div{flex:1;min-width:0}.try b{display:block}.try span{font-size:14px;color:var(--muted)}
+.try .go{flex:none;font-size:13px;font-weight:600;border:1px solid var(--line);border-radius:999px;padding:5px 12px}
+.where{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px}
+.where div{border:1px solid var(--line);border-radius:14px;padding:12px 14px}.where b{display:block}.where span{font-size:14px;color:var(--muted)}
+code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;background:var(--soft);border:1px solid var(--line);padding:1px 6px;border-radius:6px}
+a{color:inherit}
+footer{margin-top:34px;font-size:13px;color:var(--faint)}
+@media (max-width:640px){.nums,.flow{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<main>
+<div class="kicker">Why Sudhaar · a 1-minute tour</div>
+<h1>Sarvam ships fast. Code falls behind.</h1>
+<p class="lead">Every few months a Sarvam model or voice is retired. Code written against the old docs, or by an AI assistant from old memory, then gets <b>400 Bad Request</b>. Usually nobody notices until a demo breaks.</p>
+<div class="nums">
+<div class="num"><b>42%</b><span>of 457 checkable public projects on Sarvam fail on today’s API</span></div>
+<div class="num"><b>5 / 5</b><span>code samples Sarvam-105B wrote for Sarvam’s API failed</span></div>
+<div class="num"><b>8</b><span>Sarvam docs pages have code samples the API rejects</span></div>
+</div>
+<p style="font-size:13px;color:var(--faint)">All measured and confirmed against Sarvam’s live API on 1 Nov 2026.</p>
+
+<h2>What Sudhaar does</h2>
+<div class="flow">
+<div class="step"><b>1 · Find</b><span>Every Sarvam call in a repo or pasted code that will fail today</span></div>
+<div class="step"><b>2 · Prove</b><span>A tiny real call to Sarvam’s API: 400 now, 200 with the fix</span></div>
+<div class="step"><b>3 · Fix</b><span>Rewrites the call and shows you the diff</span></div>
+<div class="step"><b>4 · Learn</b><span>Sarvam-105B reads Sarvam’s changelog; the live API confirms each new rule</span></div>
+</div>
+<p style="margin-top:12px">Agent Skills <i>teach</i> AI assistants how to use Sarvam. <b>Sudhaar verifies</b> that the code actually works.</p>
+
+<h2>Take the tour</h2>
+<div class="tour">
+<button class="try" data-go="write"><span class="n">1</span><div><b>Get code that’s verified live</b><span>Ask for Hindi text-to-speech code. Sarvam-105B writes it, Sudhaar calls every model and voice before you see it.</span></div><span class="go">Try it</span></button>
+<button class="try" data-go="paste"><span class="n">2</span><div><b>Check code an AI wrote</b><span>Paste the voice agent Sarvam-105B wrote. Every model id in it is made up.</span></div><span class="go">Try it</span></button>
+<button class="try" data-go="repo"><span class="n">3</span><div><b>Check a real repo</b><span>A student’s voice bot from GitHub. Then press “Prove it live”.</span></div><span class="go">Try it</span></button>
+<button class="try" data-go="ask"><span class="n">4</span><div><b>Ask what changed</b><span>Which Sarvam models and settings stopped working, and what to use instead.</span></div><span class="go">Try it</span></button>
+<button class="try" data-go="docs"><span class="n">5</span><div><b>See Sarvam’s docs health</b><span>The 8 docs pages with failing samples, each with a one-line fix.</span></div><span class="go">Open</span></button>
+</div>
+
+<h2>Use it where you code</h2>
+<div class="where">
+<div><b>This portal</b><span>Paste a repo or code, ask for code, ask questions</span></div>
+<div><b>Command line</b><span><code>python3 sudhaar.py . --verify --fix</code></span></div>
+<div><b>CI</b><span>GitHub Action and pre-commit hook block broken calls</span></div>
+<div><b>AI coding agents</b><span>Agent Skill + MCP server for Claude Code, Cursor and others</span></div>
+<div><b>Running apps</b><span>Self-healing proxy: change one URL, broken calls get fixed in flight</span></div>
+</div>
+<footer>Open source: <a href="https://github.com/ATHARV-IIT-BOMBAY/sudhaar">github.com/ATHARV-IIT-BOMBAY/sudhaar</a> · Built at Sarvam Campus ’26 x IIT Bombay</footer>
+</main>
+<script>
+// The tour runs inside the portal; each button starts the real action in the chat.
+document.querySelectorAll('.try').forEach(b => b.onclick = () => {
+  if (window.parent && window.parent.tour) window.parent.tour(b.dataset.go);
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,122 @@
+{
+ "checked_at": "01 Nov 2026, 15:14",
+ "pages": 202,
+ "pages_with_code": 159,
+ "calls_tested": 26,
+ "failing_pages": [
+  {
+   "url": "https://docs.sarvam.ai/api/api-guides-tutorials/speech-to-text/use-cases/edtech",
+   "title": "EdTech Voice Tutors",
+   "calls": [
+    {
+     "call": "bulbul:v4-flash + ishita",
+     "status": 400,
+     "error": "Speaker 'ishita' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conv",
+     "fix": "speaker → ishita_hi_ads"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/api-guides-tutorials/text-to-speech/how-to/adjust-the-loudness",
+   "title": "How to adjust the loudness (volume)",
+   "calls": [
+    {
+     "call": "bulbul:v2 + anushka",
+     "status": 400,
+     "error": "Model 'bulbul:v2' has been deprecated. Please use 'bulbul:v3' instead.",
+     "fix": "model → bulbul:v3, speaker → shubh"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/api-guides-tutorials/text-to-speech/how-to/adjust-the-tone",
+   "title": "How to adjust the pitch (tone)",
+   "calls": [
+    {
+     "call": "bulbul:v2 + anushka",
+     "status": 400,
+     "error": "Model 'bulbul:v2' has been deprecated. Please use 'bulbul:v3' instead.",
+     "fix": "model → bulbul:v3, speaker → shubh"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/api-guides-tutorials/text-to-speech/how-to/enable-text-preprocessing",
+   "title": "How to enable text preprocessing",
+   "calls": [
+    {
+     "call": "bulbul:v2 + anushka",
+     "status": 400,
+     "error": "Model 'bulbul:v2' has been deprecated. Please use 'bulbul:v3' instead.",
+     "fix": "model → bulbul:v3, speaker → shubh"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/api-guides-tutorials/text-to-speech/rest-api",
+   "title": "Text-to-Speech Rest API",
+   "calls": [
+    {
+     "call": "bulbul:v4-flash + priya",
+     "status": 400,
+     "error": "Speaker 'priya' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conve",
+     "fix": "speaker → priya_hi_recovery"
+    },
+    {
+     "call": "bulbul:v4-flash + roopa",
+     "status": 400,
+     "error": "Speaker 'roopa' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conve",
+     "fix": "speaker → roopa_hi_companion"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/cookbook/example-voice-agents/loan-advisory-agent",
+   "title": "Hindi loan advisory voice agent with Pipecat",
+   "calls": [
+    {
+     "call": "bulbul:v4-flash + aditya",
+     "status": 400,
+     "error": "Speaker 'aditya' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conv",
+     "fix": "speaker → aditya_hi_conversational"
+    },
+    {
+     "call": "bulbul:v4-flash + anand",
+     "status": 400,
+     "error": "Speaker 'anand' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conve",
+     "fix": "speaker → anand_hi_documentary"
+    },
+    {
+     "call": "bulbul:v4-flash + priya",
+     "status": 400,
+     "error": "Speaker 'priya' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conve",
+     "fix": "speaker → priya_hi_recovery"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/cookbook/example-voice-agents/tutor-agent",
+   "title": "Hindi tutor voice agent with Pipecat",
+   "calls": [
+    {
+     "call": "bulbul:v4-flash + ishita_en_edtech",
+     "status": 400,
+     "error": "Speaker 'ishita_en_edtech' is not recognized. Available speakers for bulbul:v4-flash are: aayan_hi_conversational, amit_",
+     "fix": "speaker → ishita_hi_ads"
+    }
+   ]
+  },
+  {
+   "url": "https://docs.sarvam.ai/api/getting-started/building-for-india",
+   "title": "Building for Indian Languages",
+   "calls": [
+    {
+     "call": "bulbul:v4-flash + shubh",
+     "status": 400,
+     "error": "Speaker 'shubh' is not compatible with model bulbul:v4-flash. Available speakers for bulbul:v4-flash are: aayan_hi_conve",
+     "fix": "speaker → shubh_hi_ads"
+    }
+   ]
+  }
+ ]
+}

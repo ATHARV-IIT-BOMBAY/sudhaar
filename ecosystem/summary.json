@@ -1,0 +1,214 @@
+{
+ "sampled": 911,
+ "checked": 457,
+ "broken": 191,
+ "rules": [
+  [
+   "dead model bulbul:v2",
+   49
+  ],
+  [
+   "dead model sarvam-m",
+   43
+  ],
+  [
+   "dead model bulbul:v1",
+   39
+  ],
+  [
+   "dead model sarvam-30b",
+   27
+  ],
+  [
+   "invalid speaker for bulbul:v1",
+   22
+  ],
+  [
+   "dead model saarika:v2",
+   13
+  ],
+  [
+   "invalid speaker for bulbul:v3",
+   11
+  ],
+  [
+   "dead model saaras:v2",
+   7
+  ],
+  [
+   "dead model saaras:v1",
+   4
+  ],
+  [
+   "dead model saarika:v1",
+   3
+  ],
+  [
+   "dead model sarvam-1",
+   2
+  ],
+  [
+   "dead model sarvam-2b",
+   2
+  ],
+  [
+   "dead model sarvam-2b-v0.5",
+   2
+  ],
+  [
+   "dead model saarika-v2",
+   1
+  ],
+  [
+   "dead model saarika:flash",
+   1
+  ],
+  [
+   "dead model sarvam-detect-language",
+   1
+  ],
+  [
+   "dead model sarvam-transliterate",
+   1
+  ],
+  [
+   "bad lang for bulbul:v3",
+   1
+  ],
+  [
+   "invalid speaker for bulbul:v2",
+   1
+  ],
+  [
+   "bad speech_sample_rate for bulbul:v3",
+   1
+  ],
+  [
+   "dead model sarvam-m-2b",
+   1
+  ],
+  [
+   "dead model sarvam-vision",
+   1
+  ],
+  [
+   "bad language for bulbul:v4-flash",
+   1
+  ],
+  [
+   "bad sample_rate for bulbul:v3",
+   1
+  ],
+  [
+   "dead model bulbul-v3",
+   1
+  ],
+  [
+   "dead model sarvam-m:low",
+   1
+  ]
+ ],
+ "examples": {
+  "dead model saarika:v2": [
+   "01pritam/Adarsh-MoboApp",
+   "AditHash/Sarvam-Voice-Assistant",
+   "AmoghInfinity/HH_Goa"
+  ],
+  "invalid speaker for bulbul:v1": [
+   "0251cys075/multilingual-rag-matrix",
+   "AdarshChauarsiya/Agentic_Chatbot",
+   "Adithi-Garipelly/Rupyantar-Sakhi"
+  ],
+  "dead model bulbul:v1": [
+   "0251cys075/multilingual-rag-matrix",
+   "AdarshChauarsiya/Agentic_Chatbot",
+   "Adithi-Garipelly/Rupyantar-Sakhi"
+  ],
+  "dead model sarvam-1": [
+   "24cu0310111-ship-it/DP-4thSem-main",
+   "Desty27/DocEz-Document_Intelligence"
+  ],
+  "dead model sarvam-30b": [
+   "ARUNNG2004/DevConnect-AI",
+   "Innit-Bruv/billkaro",
+   "Mayankjha12/autoguard-ai"
+  ],
+  "dead model bulbul:v2": [
+   "ASTITVAAG2005/khetsense-rag-assistant",
+   "AarmanAthar/CareIndia",
+   "Anshul070/Planer"
+  ],
+  "dead model saarika:v1": [
+   "Adithi-Garipelly/Rupyantar-Sakhi",
+   "Shikhrrr/IIITD",
+   "unnatipatel22/voice-rag-system"
+  ],
+  "dead model sarvam-m": [
+   "Agnuxo1/p2pclaw-mcp-server",
+   "AshutoshIIT1234/sarvam-assignment",
+   "BodaNabeel/chatandme"
+  ],
+  "dead model saaras:v2": [
+   "Anushka1431/New_Elevate_ElasticRun",
+   "Krishanu2206/HACK4BENGAL-DEMO",
+   "Pratham1604/Summarize-Meeting"
+  ],
+  "dead model saarika-v2": [
+   "Arsen1c-18/GoogleHackathon_RBU"
+  ],
+  "dead model saarika:flash": [
+   "DEVENWAGH/ai"
+  ],
+  "dead model sarvam-2b": [
+   "DevAgarwal2/sarvamai-skills",
+   "Komu12ee/future-sewa-setu"
+  ],
+  "invalid speaker for bulbul:v3": [
+   "DevAgarwal2/sarvamai-skills",
+   "Samrudh2006/Cure.coders",
+   "intellivex-ai/kesari-1.0"
+  ],
+  "dead model sarvam-2b-v0.5": [
+   "GouravPatidar91/cybersaathi",
+   "Purjeet979/SnehaSathi"
+  ],
+  "dead model sarvam-detect-language": [
+   "Mandark-droid/genai_otel_instrument"
+  ],
+  "dead model sarvam-transliterate": [
+   "Mandark-droid/genai_otel_instrument"
+  ],
+  "dead model saaras:v1": [
+   "Samrudh2006/orchids-curecoders",
+   "dilshadalikhan2004/Voice-enabled-RAG-Model",
+   "himanshugoyal77/TalkFlow-multilanguage-ai-translator"
+  ],
+  "bad lang for bulbul:v3": [
+   "Tenali-Radhika/sahayak"
+  ],
+  "invalid speaker for bulbul:v2": [
+   "adityatiwari12/AdityaOS"
+  ],
+  "bad speech_sample_rate for bulbul:v3": [
+   "cneuralnetwork/jigyasa-ai-learning"
+  ],
+  "dead model sarvam-m-2b": [
+   "dakshbhardwajjee2026-netizen/cognicare-voice-companion"
+  ],
+  "dead model sarvam-vision": [
+   "dashayushman/desibench"
+  ],
+  "bad language for bulbul:v4-flash": [
+   "khareutkarshk/chillar"
+  ],
+  "bad sample_rate for bulbul:v3": [
+   "mittal-parth/sadak"
+  ],
+  "dead model bulbul-v3": [
+   "ravitejabolla756-sys/Bavio-Ai-v1"
+  ],
+  "dead model sarvam-m:low": [
+   "ru-aish/voice.ind"
+  ]
+ }
+}

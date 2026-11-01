@@ -1,0 +1,27 @@
+{
+ "sarvam-m": [
+  "sarvam-105b",
+  "error",
+  "rejected by the live API (learned from changelog 2026-6-5)"
+ ],
+ "sarvam-30b": [
+  "sarvam-105b",
+  "error",
+  "rejected by the live API (learned from changelog 2026-8-18)"
+ ],
+ "sarvam-105b-32k": [
+  "sarvam-105b",
+  "error",
+  "rejected by the live API (learned from changelog 2026-5-1)"
+ ],
+ "sarvam-30b-16k": [
+  "sarvam-105b",
+  "error",
+  "rejected by the live API (learned from changelog 2026-4-1)"
+ ],
+ "bulbul:v1": [
+  "bulbul:v3",
+  "error",
+  "rejected by the live API (learned from changelog 2025-4-1)"
+ ]
+}

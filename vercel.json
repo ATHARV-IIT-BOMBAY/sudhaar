@@ -1,0 +1,9 @@
+{
+  "functions": {
+    "api/index.py": {
+      "includeFiles": "{*.py,*.html,rules.json,rules_learned.json,ecosystem/*.html,demo_app/**,evidence/**}",
+      "maxDuration": 120
+    }
+  },
+  "rewrites": [{ "source": "/(.*)", "destination": "/api/index" }]
+}
