@@ -7,6 +7,8 @@
 
 ### 🔗 [Try it live: sudhaar-nu.vercel.app](https://sudhaar-nu.vercel.app)
 
+[The problem](#the-problem) · [2-minute demo](#demo-see-it-in-2-minutes) · [Features](#features) · [How it works](#how-it-works) · [Credits](#credits)
+
 Built at **Sarvam Campus ’26 × IIT Bombay** (1 Nov 2026) · Python standard library only · Uses Sarvam-105B, Bulbul, Saaras and Mayura
 
 </div>
